@@ -1,0 +1,18 @@
+# The following ignores all files in the .xcodeproj bundle,
+# And then adds back in only the project (skipping the user files)
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+#no need for all these with the 2 lines above
+#*.pbxuser
+#*.mode2v3
+#*.mode1v3
+#*.perspective
+#*.perspectivev3
+
+
+# Max OS X generated files
+.DS_Store
+*.swp
+
+# git merge files
+*.orig
